@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+  max-width: 1220px; 
+  margin: 0px auto; 
+}
+header{
+  display: flex;
+  padding: 46px 0;
+justify-content: space-between;
+align-items: center;
+}
+ul{
+display: flex;
+list-style: none;
+gap: 40px;
+}
+ul li a{
+  text-decoration: none;
+  color: gray;
+}
+ul li a:hover{
+  color: black;
+  font-weight: 700;
+}
+.hero{
+  display: flex;
+  align-items: center;
+  gap: 131px;
+  padding: 80px 0;
+}
+h1{
+font-size: 45px;
+font-weight: 700;
+line-height: 56px;
+}
+.hero p{
+font-size: 19px;
+font-weight: 300;
+line-height: 32px;
+background: #7D7987;
+margin: 30px 0;
+background-color: white;
+}
+.btn{
+  background: #458FF6;
+padding: 16px 51px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.59px;
+  text-align: left;
+background-color: white;
+border-radius: 30px;
+border: 1.4 solid  #458FF6;
+transition: 0.5s;
+}
+.btn:hover{
+  background: #458FF6;
+  color: white;
+}
+.service{
+padding: 50px 0;
+}
+.service h2{
+  font-size: 40px;
+  text-align: center;
+}
+.service p{
+  max-width: 640px;
+  margin: 20px auto;
+  text-align: center;
+}
+.card{
+  width: 380px;
+  height: 380px;
+  background: #E7E7E7;
+border-radius: 20px;
+padding: 71px 39px;
+transition: 0.5s;
+}
+.card p{
+  margin: 0px;
+  text-align: left;
+}
+.card h3{
+  margin: 15px 0;
+}
+.ota{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.card:hover{
+  background: #5A98F2;
+  color: white;
+}
+.article{
+  padding: 50px 0;
+}
+.card2{
+  width: 380px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding-bottom: 30px;
+}
+.card2 h3,p,a{
+  margin: 30px;
+}
+.article-ota{
+  display: flex;
+  gap: 20px;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+.card2 a{
+  
+  text-decoration: none;
+  background-color: white;
+}
+.card2 a::after{
+  content: url("img/Group\ 16.png");
+  margin-left: 15px;
+}
+footer{
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+padding: 100px 0;
+color: white;
+text-align: center;
+justify-content: space-between;
+}
+footer .container{
+  display: flex;
+  gap: 50px;
+}
+footer p{
+  text-align: left;
+}
